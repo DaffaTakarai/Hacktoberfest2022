@@ -1,6 +1,8 @@
 public class ArrayDeque {
     public static void main(String[] args) {
         java.util.ArrayDeque<String> names = new java.util.ArrayDeque<>();
+        
+        System.out.println("Array Program in Java");
 
         // offerLast is used to add elements at last of the ArrayDeque
         names.offerLast("Akash");
